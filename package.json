@@ -6,11 +6,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mantine/core": "^7.9.1",
+    "@mantine/form": "^7.9.1",
+    "@mantine/hooks": "^7.9.1",
+    "@tabler/icons-react": "^3.4.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1"
   }
 }
